@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
 
         Woman woman = new Woman("Maria", "Smith", 59, null);
-        Man man = new Man("Peter", "Black", 67, null);
+        Man man = new Man("Peter", "Black", 65, null);
         System.out.println("Is retired: " + woman.isRetired() + " " + woman.getFirstName());
         System.out.println("Is retired: " + man.isRetired() + " " + man.getFirstName());
         woman.registerPartnership(man);

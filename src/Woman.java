@@ -6,10 +6,7 @@ public class Woman extends Person {
     }
     @Override
     public boolean isRetired() {
-        if (getAge() >= 60) {
-            return true;
-        }
-        return false;
+        return getAge() >= 60;
     }
     @Override
     public void registerPartnership(Person partner) {
